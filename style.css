@@ -1,0 +1,205 @@
+.logo {
+    display: block;
+    margin: 20px auto; /* 20px top/bottom margin, auto for horizontal centering */
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+}
+
+.page-title {
+    text-align: center;
+    margin: 10px auto 20px auto; /* Top, right, bottom, left */
+    color: #333;
+}
+
+.disclaimer-text {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 800px; /* Adjust as needed to match container width or desired text flow */
+    font-size: 0.9em;
+    color: #555;
+}
+
+.disclaimer-content {
+    padding: 2em;
+}
+
+.disclaimer-content h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.disclaimer-content p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.guidelines {
+    padding: 2em;
+}
+
+.guidelines h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.guidelines p {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.guidelines ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.guidelines li {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.guidelines ul ul {
+    padding-left: 2em;
+    margin-top: 0.5em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.content-box {
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: auto; /* Changed from 100vh to auto */
+}
+
+.pane {
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+#left-pane {
+    width: 70%;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 1em; /* Ensure padding inside the pane */
+}
+
+.category-section {
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 6px;
+    border: 1px solid transparent; /* Keeps sizing consistent */
+}
+
+.category-section h3 {
+    margin-top: 0; /* Remove top margin as the section has padding */
+    margin-bottom: 0.8em;
+    font-size: 1.2em;
+    color: #2c3e50;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 0.5em;
+}
+
+/* Background Color Classes */
+.bg-light-green {
+    background-color: #e8f5e9; /* Light Green */
+    border-color: #c8e6c9;
+}
+
+.bg-light-yellow {
+    background-color: #fffde7; /* Light Yellow */
+    border-color: #fff9c4;
+}
+
+.bg-light-blue {
+    background-color: #e3f2fd; /* Light Blue */
+    border-color: #bbdefb;
+}
+
+#right-pane {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#text-box {
+    width: 100%;
+    flex-grow: 1;
+    border: none;
+    resize: none;
+    padding: 0;
+    font-size: 1em;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 0.5em;
+    margin-top: 0.25em; /* Align checkbox with text line height */
+}
+
+label {
+    display: block;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.button-container button {
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.button-container button:hover {
+    background-color: #e0e0e0;
+}
+
+#copy-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+#copy-button:hover {
+    background-color: #45a049;
+}
+
+#reset-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: 1px solid #f44336;
+}
+
+#reset-button:hover {
+    background-color: #da190b;
+}
